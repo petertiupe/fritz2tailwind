@@ -51,7 +51,7 @@ kotlin {
 }
 
 /**
- * KSP support - start
+ * KSP support - start Kotlin Symbol Processor to create Compiler-Plugins ...
  */
 dependencies {
     add("kspCommonMainMetadata", "dev.fritz2:lenses-annotation-processor:$fritz2Version")

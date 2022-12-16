@@ -1,3 +1,19 @@
+/* Mit der base-Direktive steckt auch das CSS-Reset des Browsers, ansonsten die Basisfunktionen,
+   die das Tailwind-Projekt benötigt.
+*/
 @tailwind base;
+
+/* Die Utility-CSS-Klassen decken die meisten Standardfälle bereits ab, sodass sich ein einfaches
+   Layout ohne Tailwind-Anpassung umsetzen lässt. Die CSS-Klassen decken die verschiedenen Bereiche
+   im Layout einer Applikation ab und lassen sich in Kategorien unterteilen wie beispielsweise
+
+   Spacing für die Innen- und Außenabstände,
+   Sizing zum Festlegen von Höhen und Breiten,
+   Typography zur Definition von Aspekten, die das Aussehen der Schrift betreffen, und
+   Backgrounds für die Darstellung von Hintergründen.
+*/
 @tailwind utilities;
+
+/*
+*/
 @tailwind components;
