@@ -10,10 +10,11 @@ repositories {
     maven("https://s01.oss.sonatype.org/content/repositories/snapshots/") // new repository here
 }
 
-val fritz2Version = "1.0-RC2"
+// val fritz2Version = "1.0-RC3-SNAPSHOT"
+val fritz2Version = "1.0-SNAPSHOT" // set the newer snapshot version here
 
-//group = "my.fritz2.app"
-//version = "0.0.1-SNAPSHOT"
+group = "de.tiupe.fritz2tailwind"
+version = "0.0.1-SNAPSHOT"
 
 kotlin {
     jvm()
